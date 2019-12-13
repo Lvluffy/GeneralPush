@@ -14,22 +14,19 @@ import com.umeng.message.UmengNotificationClickHandler;
 import com.umeng.message.entity.UMessage;
 
 /**
- * Created by lvlufei on 2018/10/23.
+ * Created by lvlufei on 2018/10/23
+ *
+ * @name
+ * @desc
  */
 public class BaseAppliacation extends Application {
-
-    private static BaseAppliacation instance;
-
-    public static BaseAppliacation getInstance() {
-        return instance;
-    }
 
     @Override
     public void onCreate() {
         super.onCreate();
-        /**初始化友盟分享*/
+        //初始化友盟分享
         UMConfigure.init(this, ConstansHelper.Umeng.APPKEY, "umeng", UMConfigure.DEVICE_TYPE_PHONE, ConstansHelper.Umeng.MESSAGE_SECRET);
-        /**初始化友盟推送*/
+        //初始化友盟推送
         initUmengPush();
     }
 
