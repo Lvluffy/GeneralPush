@@ -4,8 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 
-import com.luffu.pushlib.UMPushConstans;
-import com.luffu.pushlib.UMRegister;
+import com.luffy.pushlib.UMPushConstans;
+import com.luffy.pushlib.UMRegister;
 import com.luffy.generalpush.helper.ConstansHelper;
 import com.luffy.generalpush.ui.MainActivity;
 import com.umeng.commonsdk.UMConfigure;

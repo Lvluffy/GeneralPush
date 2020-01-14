@@ -1,4 +1,4 @@
-package com.luffu.pushlib;
+package com.luffy.pushlib;
 
 /**
  * Created by lvlufei on 2018/10/23

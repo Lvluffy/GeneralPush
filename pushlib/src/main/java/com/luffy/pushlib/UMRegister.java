@@ -1,4 +1,4 @@
-package com.luffu.pushlib;
+package com.luffy.pushlib;
 
 import android.content.Context;
 
